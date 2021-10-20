@@ -11,6 +11,7 @@ namespace FOOD.WebForms
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            price.Text = Session["tp"].ToString();
 
         }
 
