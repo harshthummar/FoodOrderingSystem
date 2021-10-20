@@ -89,7 +89,6 @@ namespace FOOD.WebForms
 
         protected void mycard2_Click1(object sender, EventArgs e)
         {
-
             int c2 = Convert.ToInt32(Label2.Text);
             int d2 = Convert.ToInt32(price2.Text);
             String e2 = (c2 * d2).ToString();
@@ -159,5 +158,7 @@ namespace FOOD.WebForms
             com.ExecuteNonQuery();
             con.Close();
         }
+
+       
     }
 }

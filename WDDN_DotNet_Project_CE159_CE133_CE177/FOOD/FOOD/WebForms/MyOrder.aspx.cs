@@ -32,13 +32,13 @@ namespace FOOD.WebForms
             SqlCommand cmd1 = new SqlCommand(price, con);
             SqlDataReader dr = cmd1.ExecuteReader();
           
-            int sum = 340;
+            int sum = 0;
             while(dr.Read())
             {
-                Console.WriteLine(dr["Price"].ToString());
-               // sum = sum + Convert.ToInt32(dr["Price"].ToString());
+               // Console.WriteLine(dr["Price"].ToString());
+                sum = sum + Convert.ToInt32(dr["Price"].ToString());
             }
-         
+            Session["tp"] = sum;
             dr.Close();
             totalprice.Text = "Total Price:"+sum.ToString();
             dr = cmd.ExecuteReader();
