@@ -11,28 +11,42 @@
             margin-right: 0px;
         }
         .auto-style3 {
-            width: 482px;
+            width: 338px;
         }
         .auto-style5 {
             width: 646px;
         }
         .auto-style6 {
-            width: 182px;
+            width: 150px;
         }
+
+        .auto-style8 {
+            margin-left: 216px;
+            margin-right: 43px;
+        }
+        .auto-style9 {
+            width: 1247px;
+        }
+
+        .auto-style10 {
+            margin-left: 320px;
+        }
+
     </style>
+        <link href="../Content/bootstrap.min.css" rel="stylesheet" />
 </head>
 <body style="height: 100px">
-    <form id="form1" runat="server">
+    <h1 style="text-align:center" class="auto-style9" >Register </h1>
+    <form id="form1" runat="server" class="auto-style8">
         <div style="font-size: medium">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Register&nbsp;
             <br />
             <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <table class="auto-style2">
                 <tr>
-                    <td class="auto-style6">UserName:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+                    <td class="auto-style6">UserName:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
                     <td class="auto-style3">
-                        <asp:TextBox ID="TextBox1" runat="server" Width="577px"></asp:TextBox>
+                        <asp:TextBox class="form-control" ID="TextBox1" runat="server" Width="430px"></asp:TextBox>
                     </td>
                     <td class="auto-style5">&nbsp;&nbsp;</td>
                     <td>
@@ -42,7 +56,7 @@
                 <tr>
                     <td class="auto-style6">Email:</td>
                     <td class="auto-style3">
-                        <asp:TextBox ID="TextBox2" runat="server" TextMode="Email" Width="572px"></asp:TextBox>
+                        <asp:TextBox class="form-control" ID="TextBox2" runat="server" TextMode="Email" Width="429px"></asp:TextBox>
                     </td>
                     <td class="auto-style5">&nbsp;</td>
                     <td>
@@ -52,7 +66,7 @@
                 <tr>
                     <td class="auto-style6">Password:</td>
                     <td class="auto-style3">
-                        <asp:TextBox ID="TextBox3" runat="server"  TextMode="Password" Width="577px"></asp:TextBox>
+                        <asp:TextBox class="form-control" ID="TextBox3" runat="server"  TextMode="Password" Width="428px"></asp:TextBox>
                     </td>
                     <td class="auto-style5">&nbsp;</td>
                     <td>
@@ -62,7 +76,7 @@
                 <tr>
                     <td class="auto-style6">Re-Password:</td>
                     <td class="auto-style3">
-                        <asp:TextBox ID="TextBox4" runat="server" Width="573px"></asp:TextBox>
+                        <asp:TextBox class="form-control" ID="TextBox4" runat="server" Width="429px"></asp:TextBox>
                     </td>
                     <td class="auto-style5">
                         <asp:CompareValidator ID="CompareValidator1" runat="server" ControlToCompare="TextBox3" ControlToValidate="TextBox4" ErrorMessage="Please Enter The Correct Password" ForeColor="Red"></asp:CompareValidator>
@@ -74,8 +88,10 @@
             </table>
         </div>
         <p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="Register1" runat="server" OnClick="Register1_Click" Text="Register" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        <p class="auto-style10">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button class="btn btn-primary btn-lg" ID="Register1" runat="server" OnClick="Register1_Click" Text="Register" />
         </p>
     </form>
 </body>

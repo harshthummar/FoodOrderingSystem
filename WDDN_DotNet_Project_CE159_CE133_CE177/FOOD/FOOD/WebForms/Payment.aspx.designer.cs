@@ -24,15 +24,6 @@ namespace FOOD.WebForms
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// userdetail control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label userdetail;
-
-        /// <summary>
         /// name control.
         /// </summary>
         /// <remarks>
@@ -130,15 +121,6 @@ namespace FOOD.WebForms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label paymentdetail;
-
-        /// <summary>
-        /// paymentmode control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label paymentmode;
 
         /// <summary>
         /// offline control.
