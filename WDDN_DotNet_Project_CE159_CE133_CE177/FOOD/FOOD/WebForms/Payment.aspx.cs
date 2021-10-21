@@ -17,12 +17,12 @@ namespace FOOD.WebForms
 
         protected void offline_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Payment_Offline.html");
+            Response.Redirect("Payment_Offline.aspx");
         }
 
         protected void online_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Payment_Online.html");
+            Response.Redirect("Payment_Online.aspx");
         }
     }
 }

@@ -129,8 +129,8 @@
     <Content Include="WebForms\Menu.aspx" />
     <Content Include="WebForms\MyOrder.aspx" />
     <Content Include="WebForms\Payment.aspx" />
-    <Content Include="WebForms\Payment_Offline.html" />
-    <Content Include="WebForms\Payment_Online.html" />
+    <Content Include="WebForms\Payment_Offline.aspx" />
+    <Content Include="WebForms\Payment_Online.aspx" />
     <Content Include="WebForms\Punjabi_Items.aspx" />
     <Content Include="WebForms\Register.aspx" />
     <Content Include="WebForms\SouthIndians_Items.aspx" />
@@ -194,6 +194,20 @@
     </Compile>
     <Compile Include="WebForms\Payment.aspx.designer.cs">
       <DependentUpon>Payment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForms\Payment_Offline.aspx.cs">
+      <DependentUpon>Payment_Offline.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\Payment_Offline.aspx.designer.cs">
+      <DependentUpon>Payment_Offline.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForms\Payment_Online.aspx.cs">
+      <DependentUpon>Payment_Online.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\Payment_Online.aspx.designer.cs">
+      <DependentUpon>Payment_Online.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForms\Punjabi_Items.aspx.cs">
       <DependentUpon>Punjabi_Items.aspx</DependentUpon>
