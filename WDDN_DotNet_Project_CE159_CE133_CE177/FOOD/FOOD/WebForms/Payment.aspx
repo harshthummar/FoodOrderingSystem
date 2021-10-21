@@ -36,11 +36,7 @@
             <asp:Label Font-Size="Large" ID="mob" runat="server" Text="Mob.no. :"></asp:Label>
             &nbsp;<asp:TextBox class="form-control form-control-lg login-input"  ID="mobTextBox" runat="server" TextMode="Phone" MaxLength="10" Width="313px"></asp:TextBox>
             <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="mobTextBox" ErrorMessage="*" ForeColor="#FF3300"></asp:RequiredFieldValidator>
-<<<<<<< HEAD
-            <asp:RangeValidator ID="RangeValidator1" runat="server" ControlToValidate="mobTextBox" ErrorMessage="please enter the valid number" ForeColor="#FF3300" MaximumValue="9999999999" MinimumValue="1000000000" SetFocusOnError="True">enter the valid number</asp:RangeValidator>
-=======
-            <asp:RangeValidator ID="RangeValidator1" runat="server" ControlToValidate="mobTextBox" ErrorMessage="please enter the valied number" ForeColor="#FF3300" MaximumValue="9999999999" MinimumValue="1000000000" SetFocusOnError="True">please enter the valied number</asp:RangeValidator>
->>>>>>> e1859f7ee59df1d5f661d092c14a600563cfd2ae
+&nbsp;<asp:RangeValidator ID="RangeValidator1" runat="server" ControlToValidate="mobTextBox" ErrorMessage="please enter the valid number" ForeColor="#FF3300" MaximumValue="9999999999" MinimumValue="1000000000" SetFocusOnError="True">enter the valid number</asp:RangeValidator>
             <br />
             <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

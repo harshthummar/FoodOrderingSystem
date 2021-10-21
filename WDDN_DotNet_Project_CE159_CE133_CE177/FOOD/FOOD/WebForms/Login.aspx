@@ -21,6 +21,9 @@
         .auto-style3 {
             width: 1294px;
         }
+        .auto-style4 {
+            margin-left: 160px;
+        }
     </style>
     </head>
 
@@ -59,7 +62,9 @@
             <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </div>
-        <asp:Label ID="Label4" runat="server" Text="Label4"></asp:Label>
+        <div class="auto-style4">
+            <asp:Label ID="Label4" runat="server" Text="Label4"></asp:Label>
+        </div>
     </form>
 </body>
 </html>

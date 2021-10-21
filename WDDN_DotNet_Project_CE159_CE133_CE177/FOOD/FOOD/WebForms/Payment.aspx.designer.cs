@@ -123,8 +123,6 @@ namespace FOOD.WebForms
         protected global::System.Web.UI.WebControls.Label paymentdetail;
 
         /// <summary>
-<<<<<<< HEAD
-=======
         /// price control.
         /// </summary>
         /// <remarks>
@@ -134,16 +132,6 @@ namespace FOOD.WebForms
         protected global::System.Web.UI.WebControls.Label price;
 
         /// <summary>
-        /// paymentmode control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label paymentmode;
-
-        /// <summary>
->>>>>>> e1859f7ee59df1d5f661d092c14a600563cfd2ae
         /// offline control.
         /// </summary>
         /// <remarks>

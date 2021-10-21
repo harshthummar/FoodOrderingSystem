@@ -59,7 +59,7 @@
 &nbsp;
             <asp:Button  class="btn btn-outline-success"  ID="continueorder" runat="server" OnClick="continueorder_Click" Text="Continue Order" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:HyperLink class="btn btn-outline-info" ID="HyperLink1" runat="server" NavigateUrl="~/WebForms/Menu.aspx"> Back </asp:HyperLink>
+            <asp:HyperLink class="btn btn-outline-info" ID="HyperLink1" runat="server" NavigateUrl="~/WebForms/Menu.aspx"> Main Menu </asp:HyperLink>
         </p>
     </form>
 </body>
